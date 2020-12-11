@@ -163,7 +163,23 @@ p {
   justify-content: space-around;
 }
 
-.items .imgur-embed-pub {
+.items > div:nth-child(1) {
+  max-height: 300px;
+}
+
+.items > div:nth-child(2) {
+  max-height: 300px;
+}
+
+.items > div:nth-child(3) {
+  max-height: 300px;
+}
+
+.items > div:nth-child(4) {
+  max-height: 300px;
+}
+
+.items > div:nth-child(5) {
   max-height: 300px;
 }
 
