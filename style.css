@@ -163,23 +163,27 @@ p {
   justify-content: space-around;
 }
 
-.items > div:nth-child(1) {
+.pro-1 {
   max-height: 300px;
 }
 
-.items > div:nth-child(2) {
+.pro-2 {
   max-height: 300px;
 }
 
-.items > div:nth-child(3) {
+.pro-3 {
   max-height: 300px;
 }
 
-.items > div:nth-child(4) {
+.pro-4 {
   max-height: 300px;
 }
 
-.items > div:nth-child(5) {
+.pro-5 {
+  max-height: 300px;
+}
+
+img {
   max-height: 300px;
 }
 
@@ -495,9 +499,29 @@ ul .school {
     justify-content: space-around;
   }
 
-  .items .imgur-embed-pub {
-    max-height: 300px;
-  }
+  .pro-1 {
+  max-height: 300px;
+}
+
+.pro-2 {
+  max-height: 300px;
+}
+
+.pro-3 {
+  max-height: 300px;
+}
+
+.pro-4 {
+  max-height: 300px;
+}
+
+.pro-5 {
+  max-height: 300px;
+}
+  
+  img {
+  max-height: 300px;
+}
 
   .subheads > div:nth-child(1) {
     text-align: center;
@@ -841,9 +865,29 @@ ul .school {
     justify-content: space-around;
   }
 
-  .items .imgur-embed-pub {
-    height: 200px;
-  }
+  .pro-1 {
+  max-height: 100px;
+}
+
+.pro-2 {
+  max-height: 100px;
+}
+
+.pro-3 {
+  max-height: 100px;
+}
+
+.pro-4 {
+  max-height: 100px;
+}
+
+.pro-5 {
+  max-height: 100px;
+}
+  
+  img {
+  max-height: 100px;
+}
 
   .subheads > div:nth-child(1) {
     text-align: center;
