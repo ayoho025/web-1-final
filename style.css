@@ -182,8 +182,8 @@ p {
 .pro-5 {
   max-height: 500px;
 }
-
-img {
+  
+  img {
   max-height: 500px;
 }
 
@@ -341,6 +341,13 @@ ul .school {
   margin: auto;
   width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.res-subhead {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #2f0d01;
 }
 
 .empHist {
@@ -684,6 +691,13 @@ ul .school {
     width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  
+  .res-subhead {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #2f0d01;
+}
 
   .empHist {
     display: flex;
@@ -739,24 +753,45 @@ ul .school {
     font-size: 30px;
     color: #413620;
   }
+  
+  .logo svg {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: height 1s;
+}
+
+.logo svg:hover {
+  height: 100px;
+}
+  
+  .name-first {
+    margin-right: -30px;
+  }
+  
+  .name-last {
+    margin-left: -30px;
+  }
 
   .header {
     margin-top: -100px;
     margin-bottom: 100px;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
   }
 
   .cards {
     display: flex;
+    flex: 1;
     justify-content: space-around;
   }
 
   button {
     border-radius: 20px;
-    width: 200px;
-    height: 130px;
+    width: 130px;
+    height: 100px;
     background-color: #6a9347;
     border: none;
     display: flex;
@@ -785,7 +820,7 @@ ul .school {
   h2 {
     margin-bottom: -10px;
     font-family: "Poppins", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #2f0d01;
   }
 
@@ -796,7 +831,7 @@ ul .school {
 
   p {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.3;
     color: #2f0d01;
   }
@@ -814,15 +849,24 @@ ul .school {
     margin-top: -150px;
     padding: 10px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+  
+  .port-svg {
+    max-width: 150px;
+  }
 
   .tagline {
-    width: auto;
+    width: 50%;
     display: flex;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
     justify-content: space-around;
   }
 
@@ -922,7 +966,7 @@ ul .school {
 
   .grid-container {
     display: grid;
-    margin-left: -60px;
+    margin-left: -80px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     font-family: "Poppins", sans-serif;
@@ -990,7 +1034,7 @@ ul .school {
 
   .res-name {
     font-family: "Prompt", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: #2f0d01;
   }
 
@@ -1051,6 +1095,13 @@ ul .school {
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  
+  .res-subhead {
+  margin-bottom: -10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #2f0d01;
+}
 
   .empHist {
     display: flex;
