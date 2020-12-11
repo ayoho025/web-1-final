@@ -1,0 +1,1042 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  margin: -10px;
+  height: 1000px;
+  display: flex-column;
+  background-color: #eeecc7;
+}
+
+.logo svg {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: height 1s;
+}
+
+.logo svg:hover {
+  height: 200px;
+}
+
+h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 50px;
+  color: #2f0d01;
+}
+
+.header {
+  padding-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 20px;
+  width: 550px;
+  height: 200px;
+  background-color: #6a9347;
+  border: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4em;
+  box-shadow: 0 9px #999;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: -10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #2f0d01;
+}
+
+h3 {
+  margin-bottom: -10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #2f0d01;
+}
+
+hr {
+  border: 1px solid #2f0d01;
+  border-radius: 5px;
+}
+
+.skill-name {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #2f0d01;
+}
+
+/* portfolio starts here*/
+
+.portfolio {
+  margin: -10px;
+  background-color: #eeecc7;
+}
+
+.port-header {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tagline {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tagline > div:nth-child(1) {
+  text-align: center;
+  padding: 10px;
+}
+
+.tagline > div:nth-child(2) {
+  text-align: center;
+  padding: 10px;
+}
+
+.tagline > div:nth-child(3) {
+  text-align: center;
+  padding: 10px;
+}
+
+.subheads {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  padding: 100px;
+  padding-bottom: 200px;
+}
+
+.subhead {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #2f0d01;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.items .imgur-embed-pub {
+  max-height: 300px;
+}
+
+.subheads > div:nth-child(1) {
+  text-align: center;
+  padding: 10px;
+}
+
+.subheads > div:nth-child(2) {
+  text-align: center;
+  padding: 10px;
+}
+
+.subheads > div:nth-child(3) {
+  text-align: center;
+  padding: 10px;
+}
+
+.subheads > div:nth-child(4) {
+  text-align: center;
+  padding: 10px;
+}
+
+.subheads > div:nth-child(5) {
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #2f0d01;
+}
+
+.grid-item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.grid-item2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid-item3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.grid-item4 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.grid-item5 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.grid-item6 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.grid-item7 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+.grid-item8 {
+  grid-area: 5 / 5 / 6 / 6;
+}
+.grid-item9 {
+  grid-area: 5 / 6 / 6 / 7;
+}
+
+.grid-item10 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grid-item11 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.grid-item12 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.grid-item13 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.grid-item14 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+/* resume starts here*/
+
+.resume {
+  background: #eeecc7;
+  background-image: url("https://www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+  margin: -10px;
+  margin-top: -35px;
+  margin-bottom: -35px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.res-name {
+  font-family: "Prompt", sans-serif;
+  font-size: 50px;
+  color: #2f0d01;
+}
+
+.vl {
+  border: 1px solid #2f0d01;
+  border-radius: 5px;
+  height: 120px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 40%;
+}
+
+.vl2 {
+  border: 1px solid #2f0d01;
+  border-radius: 5px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 40%;
+}
+
+.vl3 {
+  border: 1px solid #2f0d01;
+  border-radius: 5px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 40%;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #2f0d01;
+  list-style-position: outside;
+}
+
+ul .emp {
+  list-style-position: outside;
+}
+
+ul .school {
+  list-style-position: outside;
+}
+
+.container {
+  display: box;
+  padding: 3em;
+}
+.resume-page {
+  background: #dbe9ee;
+  background-image: url("https://www.transparenttextures.com/patterns/soft-wallpaper.png");
+  display: box;
+  margin: auto;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.empHist {
+  display: flex;
+}
+
+.empHist .startDate {
+  width: 275px;
+  text-align: end;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.skill .one {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.skill .two {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.skill .three {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.ref-1 {
+  padding: 10px;
+}
+
+.ref-2 {
+  padding: 10px;
+}
+
+.ref-3 {
+  padding: 10px;
+}
+
+@media all and (max-width: 1200px) {
+  button {
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    background-color: #6a9347;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4em;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  h2 {
+    margin-bottom: -10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #2f0d01;
+  }
+
+  hr {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #2f0d01;
+  }
+
+  /* portfolio starts here*/
+
+  .portfolio {
+    margin: -10px;
+    background-color: #eeecc7;
+  }
+
+  .port-header {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tagline {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tagline > div:nth-child(1) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tagline > div:nth-child(2) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tagline > div:nth-child(3) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    padding: 100px;
+    padding-bottom: 200px;
+  }
+
+  .subhead {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #2f0d01;
+  }
+
+  .items {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .items .imgur-embed-pub {
+    max-height: 300px;
+  }
+
+  .subheads > div:nth-child(1) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(2) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(3) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(4) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(5) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .skill-name {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #2f0d01;
+  }
+
+  .grid-item1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .grid-item2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .grid-item3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .grid-item4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .grid-item5 {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+  .grid-item6 {
+    grid-area: 5 / 3 / 6 / 4;
+  }
+  .grid-item7 {
+    grid-area: 5 / 4 / 6 / 5;
+  }
+  .grid-item8 {
+    grid-area: 5 / 5 / 6 / 6;
+  }
+  .grid-item9 {
+    grid-area: 5 / 6 / 6 / 7;
+  }
+
+  .grid-item10 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .grid-item11 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .grid-item12 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+  .grid-item13 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .grid-item14 {
+    grid-area: 4 / 3 / 5 / 4;
+  }
+
+  /* resume starts here*/
+
+  .resume {
+    background: #eeecc7;
+    background-image: url("https://www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+    margin: -10px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .res-name {
+    font-family: "Prompt", sans-serif;
+    font-size: 50px;
+    color: #2f0d01;
+  }
+
+  .vl {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  .vl2 {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  .vl3 {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  li {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #2f0d01;
+    list-style-position: outside;
+  }
+
+  ul .emp {
+    list-style-position: outside;
+  }
+
+  ul .school {
+    list-style-position: outside;
+  }
+
+  .container {
+    display: box;
+    padding: 3em;
+  }
+  .resume-page {
+    background: #dbe9ee;
+    background-image: url("https://www.transparenttextures.com/patterns/soft-wallpaper.png");
+    display: box;
+    margin: auto;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .empHist {
+    display: flex;
+  }
+
+  .empHist .startDate {
+    width: 25%;
+    text-align: end;
+  }
+
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .skill .one {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: auto;
+  }
+
+  .skill .two {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: auto;
+  }
+
+  .skill .three {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: auto;
+  }
+
+  .ref-1 {
+    padding: 10px;
+  }
+
+  .ref-2 {
+    padding: 10px;
+  }
+
+  .ref-3 {
+    padding: 10px;
+  }
+}
+@media all and (max-width: 800px) {
+  h1 {
+    font-family: "Prompt", sans-serif;
+    font-size: 30px;
+    color: #413620;
+  }
+
+  .header {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    border-radius: 20px;
+    width: 200px;
+    height: 130px;
+    background-color: #6a9347;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4em;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  h2 {
+    margin-bottom: -10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #2f0d01;
+  }
+
+  hr {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #2f0d01;
+  }
+
+  /* portfolio starts here*/
+
+  .portfolio {
+    margin: -10px;
+    background-color: #eeecc7;
+  }
+
+  .port-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tagline {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tagline > div:nth-child(1) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tagline > div:nth-child(2) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tagline > div:nth-child(3) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    padding: 100px;
+    padding-bottom: 200px;
+  }
+
+  .subhead {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #2f0d01;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .items .imgur-embed-pub {
+    height: 200px;
+  }
+
+  .subheads > div:nth-child(1) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(2) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(3) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(4) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subheads > div:nth-child(5) {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .skill-name {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    margin-left: -60px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    line-height: 1.3;
+    color: #2f0d01;
+  }
+
+  .grid-item1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .grid-item2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .grid-item3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .grid-item4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .grid-item5 {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+  .grid-item6 {
+    grid-area: 5 / 3 / 6 / 4;
+  }
+  .grid-item7 {
+    grid-area: 5 / 4 / 6 / 5;
+  }
+  .grid-item8 {
+    grid-area: 5 / 5 / 6 / 6;
+  }
+  .grid-item9 {
+    grid-area: 5 / 6 / 6 / 7;
+  }
+
+  .grid-item10 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .grid-item11 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .grid-item12 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+  .grid-item13 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .grid-item14 {
+    grid-area: 4 / 3 / 5 / 4;
+  }
+
+  /* resume starts here*/
+
+  .resume {
+    background: #eeecc7;
+    background-image: url("https://www.transparenttextures.com/patterns/dotnoise-light-grey.png");
+    margin: -10px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .res-name {
+    font-family: "Prompt", sans-serif;
+    font-size: 50px;
+    color: #2f0d01;
+  }
+
+  .vl {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  .vl2 {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  .vl3 {
+    border: 1px solid #2f0d01;
+    border-radius: 5px;
+    height: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 40%;
+  }
+
+  li {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #2f0d01;
+    list-style-position: outside;
+  }
+
+  ul .emp {
+    list-style-position: outside;
+  }
+
+  ul .school {
+    list-style-position: outside;
+  }
+
+  .container {
+    display: box;
+  }
+  .resume-page {
+    background: #dbe9ee;
+    background-image: url("https://www.transparenttextures.com/patterns/soft-wallpaper.png");
+    display: box;
+    margin: auto;
+    margin-top: -50px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .empHist {
+    display: flex;
+  }
+
+  .empHist .startDate {
+    width: 25%;
+    text-align: end;
+  }
+
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .skill .one {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+  }
+
+  .skill .two {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+  }
+
+  .skill .three {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+  }
+
+  .ref-1 {
+    padding: 10px;
+  }
+
+  .ref-2 {
+    padding: 10px;
+  }
+
+  .ref-3 {
+    padding: 10px;
+  }
+}
