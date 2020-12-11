@@ -747,7 +747,7 @@ ul .school {
     padding: 10px;
   }
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   h1 {
     font-family: "Prompt", sans-serif;
     font-size: 30px;
@@ -766,11 +766,11 @@ ul .school {
 }
   
   .name-first {
-    margin-right: -30px;
+    margin-right: -50px;
   }
   
   .name-last {
-    margin-left: -30px;
+    margin-left: -50px;
   }
 
   .header {
@@ -857,7 +857,7 @@ ul .school {
   }
   
   .port-svg {
-    max-width: 70px;
+    width: 70px;
   }
 
   .tagline {
@@ -966,7 +966,7 @@ ul .school {
 
   .grid-container {
     display: grid;
-    margin-left: -80px;
+    margin-left: -90px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     font-family: "Poppins", sans-serif;
